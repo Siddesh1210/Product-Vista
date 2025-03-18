@@ -45,7 +45,7 @@
 ## ⚙️ Setup Instructions
 
 1. **Clone & Run the Repository in Local System**
-git clone https://github.com/your-username/Product-Vista.git
+git clone https://github.com/Siddesh1210/Product-Vista.git
 cd Product-Vista
 npm install
 npm run dev
