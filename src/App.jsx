@@ -1,8 +1,8 @@
 import { createBrowserRouter, Outlet } from 'react-router-dom';
 import { Suspense, lazy } from 'react';
 import Navbar from './components/Navbar';
-import SideBar from './components/Sidebar';
 import ErrorPage from './views/ErrorPage';
+import SideBarComponent from './components/SideBarComponent';
 
 const ProductPage = lazy(() => import('./views/ProductPage'));
 const CompareProductsPage = lazy(() => import('./views/CompareProductsPage'));
@@ -12,7 +12,7 @@ const App = () => {
     <>
       <Navbar />
       <div className="flex">
-        <SideBar/>
+        <SideBarComponent/>
         <Suspense>
           <Outlet />
         </Suspense>

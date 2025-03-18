@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
-function SideBar() {
+function SideBarComponent() {
     const location = useLocation();
     return(
         <>
@@ -30,4 +30,4 @@ function SideBar() {
     )
 }
 
-export default SideBar;
+export default SideBarComponent;
